@@ -1,6 +1,8 @@
 .history
 *.sublime-*
 settings
+clink.log
+clink_inputrc
 
 # testing stuff
 lua_modules
@@ -8,3 +10,6 @@ luacov.*.out
 
 #local lua
 .lua
+
+#testing envirement 
+*.testing.lua

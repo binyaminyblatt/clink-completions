@@ -39,3 +39,8 @@ using Luarocks call `luarocks install --tree=lua_modules busted`. You might also
 `luacov` to get the coverage information.
 
 After installing call `test.bat` from repo root and watch tests passing. That's it.
+
+Installation
+============
+
+Run Install.bat
