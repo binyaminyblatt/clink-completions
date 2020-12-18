@@ -44,3 +44,11 @@ Installation
 ============
 
 Run Install.bat
+
+Disclaimer
+============
+
+* Im not responsible for bricked OSs, dead Hard Drives, thermonuclear war, or you getting fired because your computer failed (like it did for me...).
+* YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
+
+I DIDNOT write the code I just compiled code the repo with all the addons I could find, updated the Readme file, and wrote the installer.

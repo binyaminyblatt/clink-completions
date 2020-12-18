@@ -56,9 +56,11 @@ goto install
 :install
 dir /b /a "%TargetFolder%" | >nul findstr "^" && (goto updateinstall) || (goto newinstall)
 :newinstall
-git clone https://github.com/binyaminyblatt/clink-completions.git "%TargetFolder%"
+git clone https://github.com/binyaminyblatt/clink-completions.git "%TargetFolder%" >nul 2>&1
+ECHO Clink Completions Installed Successfully
 :updateinstall
-git -C "%TargetFolder%" pull
+git -C "%TargetFolder%" pull >nul 2>&1
+ECHO Clink Completions Updated Successfully
 :End
 PAUSE >nul
 :Exit
